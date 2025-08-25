@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap '  );
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap ' );
  
 :root{
     --branco: white;
@@ -85,4 +85,14 @@ var(--roboto-mono);
  .parametro-coluna__senha{       
 flex-direction: row;
     }
+}
+
+label {
+    font-size: 20px;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }
