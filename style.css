@@ -76,17 +76,18 @@ var(--roboto-mono);
     flex-direction: column;
     justify-content: center;
 }
+
 .parametro-senha{
     width: 50%;
     margin: 0 auto;
 }
 
-.parametro-senha_botao{
+.parametro-senha-botao{
     display: flex;
     justify-content: center;
 }
 
-.parametro-senha_botao{
+.parametro-senha__botao{
     background-color: var(--fundo-texto);
     color: var(--branco);
     border: 2px solid var(--borda);
@@ -94,6 +95,7 @@ var(--roboto-mono);
     font-size: 24px;
     cursor: pointer;
 }
+
 .parametro-senha__texto{
     padding: 24px;
     border-top: 2px solid var(--borda);
